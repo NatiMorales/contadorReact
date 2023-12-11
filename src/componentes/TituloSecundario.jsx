@@ -1,7 +1,7 @@
-const TituloSecundario = (props) => {
+const TituloSecundario = ({comision,anioActualProps}) => {
     return (
         <article>
-            <h2>Practica con react {props.anioActualProps}</h2>
+            <h2>Practica con react {anioActualProps}</h2>
             <p>
             React es una biblioteca de JavaScript desarrollada por Facebook para construir 
             interfaces de usuario interactivas y eficientes en aplicaciones web de una sola 
@@ -11,7 +11,7 @@ const TituloSecundario = (props) => {
             con otras tecnologías, convirtiéndolo en una herramienta fundamental en el desarrollo 
             moderno de aplicaciones web.
             <br/>
-            Comision: {props.comision}
+            Comision: {comision}
             </p>
         </article>
     );
